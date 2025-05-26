@@ -24,7 +24,7 @@ if st.button("Calculate Flames"):
 
             if response.status_code == 200:
                 result = response.text
-                st.success(f"{result}")
+                st.subheader(result)
             else:
                 st.error(f"❌ Backend Error: {response.status_code}")
         except Exception as e:
