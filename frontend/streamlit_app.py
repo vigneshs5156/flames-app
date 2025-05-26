@@ -13,6 +13,6 @@ data = json.dumps(inputs)
 
 if st.button("Calculate Flames"):
 
-    result = requests.post(url="http://127.0.0.1:8000/calculate_flames", data= data)
+    result = requests.post(url = "https://flames-app-nv5g.onrender.com/calculate_flames", data= data)
 
     st.subheader(result.text)
