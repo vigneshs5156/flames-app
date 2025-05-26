@@ -1,46 +1,56 @@
-FLAMES Calculator
-A fun web app that lets you check the relationship between two names using the classic FLAMES game logic.
+# 🔥 FLAMES Calculator
 
-Built with:
+A fun web app that lets you check the relationship between two names using the classic **FLAMES** game logic.
 
-🎨 Streamlit (Frontend)
+---
 
-🚀 FastAPI (Backend)
+## 🎯 What is FLAMES?
 
-☁️ Hosted on Streamlit Cloud and Render
+**FLAMES** is a childhood game that stands for:
 
-🎯 What is FLAMES?
-FLAMES is a childhood game that stands for:
+- 💖 **F** - Friends  
+- ❤️ **L** - Love  
+- 💍 **A** - Affection  
+- 💔 **M** - Marriage  
+- 🧊 **E** - Enemies  
+- 😶 **S** - Siblings  
 
-💖 F - Friends
+The game works by:
+- Eliminating common letters between two names
+- Counting the remaining characters
+- Determining the relationship status based on the FLAMES acronym
 
-❤️ L - Love
+---
 
-💍 A - Affection
+## 🚀 Features
 
-💔 M - Marriage
+- 🔤 Enter any two names to check their relationship status
+- 💻 Clean and minimal user interface
+- ☁️ Fully hosted and accessible from anywhere
+- 🌀 Spinner loading animation to handle backend cold starts
 
-🧊 E - Enemies
+---
 
-😶 S - Siblings
+## 🛠️ Tech Stack
 
-The game works by eliminating common letters between two names and counting the remaining characters to determine the relationship status.
+| Layer     | Technology             |
+|-----------|------------------------|
+| Frontend  | [Streamlit](https://streamlit.io) |
+| Backend   | [FastAPI](https://fastapi.tiangolo.com) |
+| API Comm  | `requests` library with JSON payloads |
+| Deployment | Streamlit Cloud (Frontend) & Render (Backend) |
 
-🚀 Features
-Enter any two names to check their relationship status
+---
 
-Clean and minimal user interface
+## 🌐 Hosted Platforms
 
-Fully hosted and accessible from anywhere
+- **Frontend**: Streamlit Cloud  
+- **Backend**: Render
 
-Spinner loading animation to handle backend cold starts
+---
 
-🛠️ Tech Stack
+## ✍️ Author
 
-Frontend - Streamlit
-Backend - FastAPI
-Deployment - Streamlit Cloud (Frontend), Render (Backend)
-API Comm - requests library with JSON payloads
+Made with ❤️ by **Vignesh S**
 
-Author
-Made with ❤️ by Vignesh S
+---
