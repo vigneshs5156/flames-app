@@ -20,7 +20,7 @@ if st.button("Calculate Flames"):
         )
 
         if response.status_code == 200:
-            result = response.json().get("result", "No result returned.")
+            result = response.text
             st.subheader(f"{result}")
         else:
             st.error(f"Backend Error: {response.status_code}")
