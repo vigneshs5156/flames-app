@@ -22,7 +22,7 @@ def calculate_flames(get_name_1, get_name_2):
             name_2.remove(word)
             
     flames = list('flames')*100
-    lookups = {'f':'are Friends','l':'are in Love','a':'both are having Affection','m':'will end up in Marriage','e':'are Enemies','s':'are Sisters'}
+    lookups = {'f':'are Friends','l':'are in Love','a':'both are having Affection','m':'will end up in Marriage','e':'are Enemies','s':'are Siblings'}
 
     value = total_length - 1
 
